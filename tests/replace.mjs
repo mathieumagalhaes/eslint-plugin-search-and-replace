@@ -1,5 +1,5 @@
 import { RuleTester } from 'eslint'
-import rule from '../../../lib/rules/replace.js'
+import { rule } from '../dist/rules/replace.js'
 
 const tester = new RuleTester({
   languageOptions: {

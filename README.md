@@ -155,9 +155,10 @@ If you identify areas for improvement, have suggestions or encounter issues, ple
 ### Running locally
 
 - Install dependencies.<br>
-- You can edit `lib/rules/**` files.<br>
+- Run `pnpm/yarn/npm run dev`
+- You can edit `src/rules/**` typescript files.<br>
 - Linting this codebase can be done with `pnpm/yarn/npm run lint`<br>
-- Testing the codebase can be done with `pnpm/yarn/npm run test`<br>
+- Testing the codebase (after changes and build succesfully) can be done with `pnpm/yarn/npm run test`<br>
 
 Any added feature should have at least one valid and at least one invalid test case.
 
