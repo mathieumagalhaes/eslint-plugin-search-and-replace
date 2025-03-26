@@ -12,11 +12,16 @@
     "search and replace text",
     "search and replace code"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathieumagalhaes/eslint-plugin-search-and-replace.git"
+  },
   "author": "Mathieu Magalhaes",
   "main": "./dist/index.js",
   "exports": "./dist/index.js",
   "files": [
-    "dist"
+    "dist/**/*.js",
+    "dist/**/*.d.ts"
   ],
   "scripts": {
     "build": "tsc && node utils/build.mjs",
@@ -25,9 +30,6 @@
     "prebuild": "npm run clean",
     "lint": "eslint .",
     "test": "mocha tests --recursive"
-  },
-  "dependencies": {
-    "requireindex": "^1.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",

@@ -1,15 +1,5 @@
-"use strict"
+import replace from './rules/replace';
 
-//------------------------------------------------------------------------------
-// Requirements
-//------------------------------------------------------------------------------
-
-const requireIndex = require("requireindex")
-
-//------------------------------------------------------------------------------
-// Plugin Definition
-//------------------------------------------------------------------------------
-
-
-// import all rules in rules
-module.exports.rules = requireIndex(`${__dirname}/rules`)
+export const rules = {
+  replace,
+};

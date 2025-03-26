@@ -34,14 +34,16 @@ npm install --save-dev @mathieumagalhaes/eslint-plugin-search-and-replace
 
 ## 🔧 Usage
 
-Add `@mathieumagalhaes/search-and-replace` to the plugins section of your `.eslintrc` configuration file:
+```js
+import searchAndReplace from "@mathieumagalhaes/eslint-plugin-search-and-replace";
 
-```json
-{
-    "plugins": [
-        "@mathieumagalhaes/search-and-replace"
-    ]
-}
+export default [
+    {
+        plugins: {
+            'search-and-replace': searchAndReplace
+        }
+    }
+];
 ```
 
 ### Rule Configuration
@@ -60,7 +62,7 @@ Then configure the rules you want to use under the rules section:
 ```json
 {
     "rules": {
-        "@mathieumagalhaes/search-and-replace/replace": ["error", {
+        "search-and-replace/replace": ["error", {
             "search": "foo",
             "replace": "bar"
         }]
@@ -75,7 +77,7 @@ Then configure the rules you want to use under the rules section:
 ```json
 {
     "rules": {
-        "@mathieumagalhaes/search-and-replace/replace": ["error", {
+        "search-and-replace/replace": ["error", {
             "search": "oldText",
             "replace": "newText"
         }]
@@ -88,7 +90,7 @@ Then configure the rules you want to use under the rules section:
 ```json
 {
     "rules": {
-        "@mathieumagalhaes/search-and-replace/replace": ["error", {
+        "search-and-replace/replace": ["error", {
             "search": "oldtext",
             "replace": "newText",
             "caseSensitive": false
@@ -102,7 +104,7 @@ Then configure the rules you want to use under the rules section:
 ```json
 {
     "rules": {
-        "@mathieumagalhaes/search-and-replace/replace": ["error", {
+        "search-and-replace/replace": ["error", {
             "search": "oldVar",
             "replace": "newVar",
             "scope": "variable"
@@ -116,7 +118,7 @@ Then configure the rules you want to use under the rules section:
 ```json
 {
     "rules": {
-        "@mathieumagalhaes/search-and-replace/replace": ["error", {
+        "search-and-replace/replace": ["error", {
             "search": "@old-package",
             "replace": "@new-package",
             "scope": "import-path"
@@ -132,7 +134,7 @@ You can also configure multiple replacement rules by passing an array:
 ```json
 {
     "rules": {
-        "@mathieumagalhaes/search-and-replace/replace": ["error", [
+        "search-and-replace/replace": ["error", [
             {
                 "search": "oldText",
                 "replace": "newText"

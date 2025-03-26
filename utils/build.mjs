@@ -18,6 +18,7 @@ readdir(distDir, { recursive: true }, async (err, files) => {
     for (const file of files) {
       if (!file.endsWith('.js')) continue
       const filePath = join(distDir, file)
+      const fileName = file.split('/').pop()
 
       const code = readFileSync(filePath, 'utf8')
       const result = await minify(code, {
@@ -27,8 +28,8 @@ readdir(distDir, { recursive: true }, async (err, files) => {
           comments: false
         },
         sourceMap: {
-          filename: file.split('/').pop(),
-          url: file.split('/').pop() + '.map'
+          filename: fileName.replace('.js', '.min.js'),
+          url: fileName + '.map'
         }
       })
 
