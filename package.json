@@ -1,0 +1,43 @@
+{
+  "name": "@mathieumagalhaes/eslint-plugin-search-and-replace",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "description": "An eslint plugin to search and replace text with a another text",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "replace",
+    "search and replace",
+    "search and replace text",
+    "search and replace code"
+  ],
+  "author": "Mathieu Magalhaes",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "^1.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-doc-generator": "^1.0.0",
+    "eslint-plugin-eslint-plugin": "^6.0.0",
+    "eslint-plugin-n": "^17.0.0",
+    "mocha": "^10.0.0"
+  },
+  "engines": {
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.0.0"
+  },
+  "license": "MIT"
+}
