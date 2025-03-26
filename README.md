@@ -21,11 +21,11 @@ An ESLint plugin that allows you to perform text replacements in your JavaScript
 ## ⚙️ Installation
 
 ```bash
-pnpm install --save-dev @mathieumagalhaes/eslint-plugin-search-and-replace
+pnpm add -D @mathieumagalhaes/eslint-plugin-search-and-replace
 ```
 
 ```bash
-yarn install --save-dev @mathieumagalhaes/eslint-plugin-search-and-replace
+yarn add --dev @mathieumagalhaes/eslint-plugin-search-and-replace
 ```
 
 ```bash
