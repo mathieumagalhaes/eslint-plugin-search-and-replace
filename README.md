@@ -1,11 +1,11 @@
 <h1 align="center">@mathieumagalhaes/eslint-plugin-search-and-replace</h1>
 
 <p align="center">
-  <a href="https://cdn.jsdelivr.net/npm/@mattickx/global-dom-listener/dist/index.umd.js"><img alt="CDN Package size" src="https://img.shields.io/badge/CDN-<_2kB-blue"></a>
+  <img alt="CDN Package size" src="https://img.shields.io/npm/unpacked-size/@mathieumagalhaes/eslint-plugin-search-and-replace">
   &nbsp;
-  <a href="https://www.npmjs.com/package/@mattickx/global-dom-listener"><img alt="NPM Downloads per week" src="https://img.shields.io/npm/dw/@mattickx/global-dom-listener"></a>
+  <a href="https://www.npmjs.com/package/@mathieumagalhaes/eslint-plugin-search-and-replace"><img alt="NPM Downloads per week" src="https://img.shields.io/npm/dw/@mathieumagalhaes/eslint-plugin-search-and-replace"></a>
   &nbsp;
-  <a href="https://github.com/mattickx/global-dom-listener/LICENSE.md"><img alt="License" src="https://img.shields.io/github/license/mattickx/global-dom-listener"></a>
+  <a href="https://github.com/mathieumagalhaes/eslint-plugin-search-and-replace/LICENSE.md"><img alt="License" src="https://img.shields.io/github/license/mathieumagalhaes/eslint-plugin-search-and-replace"></a>
 </p>
 
 <p align="center">
